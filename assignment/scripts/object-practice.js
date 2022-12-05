@@ -9,9 +9,15 @@ console.log('***** Object Practice *****')
   - Also give it an array 'favThreeFoods'
 */
 const me = {
+  firstName: 'Sebastien',
+  lastName: 'Zasada',
+  hasSiblings: true,
+  shoeCount: 9,
+  favThreeFoods: ['Pizza', 'pasta', 'steak']
   // TODO - add properties here
 };
 console.log('A little about me:', me);
+
 
 /* 2. Accessing object properties.
   - Create a variable called fullName 
