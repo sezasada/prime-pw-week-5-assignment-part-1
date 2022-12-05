@@ -26,12 +26,23 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
+// The code below is not my official answer.
+function nameFull( name ) {
+  console.log('My full name is', name);
+  return nameFull;
+}
+nameFull( me.firstName +  ' ' + me.lastName );
+// Created a function for practice. My official answer is below this line. 
 
+const fullName = me.firstName + ' ' + me.lastName;
+console.log(fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+console.log(me.favThreeFoods[0]);
+console.log(me.favThreeFoods[2]);
 
 
 
@@ -41,11 +52,20 @@ console.log('A little about me:', me);
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
+console.log(me.shoeCount);
 
+me.shoeCount = 10;
 
+console.log(me.shoeCount);
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
   - Do this the same way you updated the variable above
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'blue';
+
+// testing to make sure it works.
+console.log(me.favoriteColor);
+// console.log object.
+console.log(me);
