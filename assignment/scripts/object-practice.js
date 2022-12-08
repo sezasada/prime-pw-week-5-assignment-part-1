@@ -3,7 +3,7 @@ console.log('***** Object Practice *****')
 // Add the required code to complete the tasks below
 
 /* 1. Create an object literal to represent you!
-  - Give the object a 'firstName & (separate) 'lastName' property
+  - Give the object a 'firsseparatetName & () 'lastName' property
   - Give it a boolean 'hasSiblings' property
   - Give it  a numeric 'shoeCount' property
   - Also give it an array 'favThreeFoods'
@@ -16,7 +16,6 @@ const me = {
   favThreeFoods: ['Pizza', 'pasta', 'steak']
   // TODO - add properties here
 };
-console.log('A little about me:', me);
 
 
 /* 2. Accessing object properties.
@@ -32,10 +31,11 @@ function nameFull( name ) {
   return nameFull;
 }
 nameFull( me.firstName +  ' ' + me.lastName );
+
 // Created a function for practice. My official answer is below this line. 
 
 const fullName = me.firstName + ' ' + me.lastName;
-console.log(fullName);
+console.log('My Name is', fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
