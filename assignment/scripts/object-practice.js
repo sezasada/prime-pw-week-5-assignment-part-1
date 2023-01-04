@@ -26,11 +26,12 @@ const me = {
 */
 
 // The code below is not my official answer.
-function nameFull( name ) {
-  console.log('My full name is', name);
-  return nameFull;
+function nameFull(object) {
+  let name = me.firstName + ' ' + me.lastName;
+  return 'My name is not ' + name;
 }
-nameFull( me.firstName +  ' ' + me.lastName );
+console.log(nameFull(me));
+
 
 // Created a function for practice. My official answer is below this line. 
 
